@@ -66,7 +66,7 @@ async def on_guild_join(guild: discord.Guild) -> None:
 
 
 async def main() -> None:
-    token = os.environ.get("DISCORD_BOT_TOKEN")
+    token = os.environ.get("MTUxMDM0NjgzMjM0ODMxNTY4OQ.GHPqBf.3VdNdJwd9HKTx7KLz5gpxDY51y9P71yhl2LYYk")
     if not token:
         logger.error(
             "DISCORD_BOT_TOKEN is not set -- the bot cannot start. "
